@@ -1,0 +1,26 @@
+### GET REQUEST
+GET http://localhost:8000/assignmentSixds/apiRequests/
+
+
+### POST REQUEST
+POST http://localhost:8000
+content-type: application/json
+
+
+{"test":"1232324",
+    "status":"updated"
+}
+
+
+### PUT REQUEST
+PUT http://localhost:8000/assignmentSix/apiRequests/
+content-type: application/json
+
+{
+	"gameId": 3456,
+    "username": "Sumiran"
+}
+
+
+### DELETE REQUEST
+DELETE http://localhost:8000/assignmentSixds/apiRequests/644584527726e807c87376bd
