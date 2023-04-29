@@ -3,22 +3,25 @@ GET http://localhost:8000/assignmentSixds/apiRequests/
 
 
 ### POST REQUEST
-POST http://localhost:8000
+POST http://localhost:8000/BingoGame/users/signup/
 content-type: application/json
 
 
-{"test":"1232324",
-    "status":"updated"
+{
+    "username":"testExpress@gmail.com",
+    "password":"Express Test",
+    "firstName": "test Express",
+    "lastName": "Express ",
+    "age":21
+
 }
 
 
 ### PUT REQUEST
-PUT http://localhost:8000/assignmentSix/apiRequests/
+PUT http://localhost:8000/assignmentSixds/apiRequests/
 content-type: application/json
 
 {
-	"gameId": 3456,
-    "username": "Sumiran"
 }
 
 
